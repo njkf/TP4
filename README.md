@@ -24,11 +24,13 @@ Dans etc/sysconfig/network-scripts :
 client1: 
 `ip neigh show 
 10.1.0.1 dev enp0s8 lladdr 0a:00:27:00:00:46 REACHABLE` 
+ 
 On a qu'une seule ligne car on a vidé la table ARP et qu'aucun ping n'a été fait donc aucune adresse MAC a été ajouté.
 
 serveur1: 
 `ip neigh show 
 10.2.0.1 dev enp0s8 lladdr 0a:00:27:00:00:4b REACHABLE` 
+ 
 Comme pour le client, le server n'a pas fait de ping et donc n'a pas les autres adresses dans sa table ARP.
 
 client1 apres le ping sur serveur1 : 
