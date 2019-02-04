@@ -6,6 +6,7 @@
 
 `ip route show`  
 10.1.0.0/24 dev enp0s8 proto kernel scope link src 10.1.0.254 metric 100 
+
 10.2.0.0/24 dev enp0s9 proto kernel scope link src 10.2.0.254 metric 101
 
 ### sur client1 et serveur1
