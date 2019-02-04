@@ -55,6 +55,7 @@ On peut voir que suite au ping le serveur enregistre l'adresse MAC pingé.
 #### Manip 2
 
 routeur1: une seule ligne sur la table ARP car il n'a communoiqué avec aucune autre adresse MAC
+
 routeur1 apres le ping de serveur1 sur client1:3 lignes, les adresses MAC de client1 et serveur1 ont été ajouté
 
 #### Manip 3
