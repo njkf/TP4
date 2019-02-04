@@ -34,13 +34,19 @@ serveur1:
 Comme pour le client, le server n'a pas fait de ping et donc n'a pas les autres adresses dans sa table ARP.
 
 client1 apres le ping sur serveur1 : 
+ 
 `ip neigh show 
-10.1.0.254 dev enp0s8 lladdr 08:00:27:55:69:2b REACHABLE 
+ 
+10.1.0.254 dev enp0s8 lladdr 08:00:27:55:69:2b REACHABLE
+ 
 10.1.0.1 dev enp0s8 lladdr 0a:00:27:00:00:46 REACHABLE` 
 
 serveur1 apres le ping sur client1:
+ 
 `ip neigh show
+ 
 10.2.0.254 dev enp0s8 lladdr 08:00:27:9c:42:37 STALE
+ 
 10.2.0.1 dev enp0s8 lladdr 0a:00:27:00:00:4b DELAY`
 
 On peut voir que suite au ping le serveur enregistre l'adresse MAC pingé. 
