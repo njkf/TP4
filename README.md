@@ -61,15 +61,15 @@ routeur1 apres le ping de serveur1 sur client1:3 lignes, les adresses MAC de cli
 #### Manip 3
 
 Table ARP de l'hôte : arp _a :  
-`Adresse Internet      Adresse physique      Type  
-  10.1.0.10             08-00-27-96-37-a3     dynamique   
-  10.1.0.254            08-00-27-55-69-2b     dynamique   
-  10.1.0.255            ff-ff-ff-ff-ff-ff     statique   
-  224.0.0.22            01-00-5e-00-00-16     statique   
-  224.0.0.251           01-00-5e-00-00-fb     statique   
-  224.0.0.252           01-00-5e-00-00-fc     statique   
-  239.255.255.250       01-00-5e-7f-ff-fa     statique`   
-
+`Adresse Internet      Adresse physique      Type 
+ 10.1.0.10             08-00-27-96-37-a3     dynamique 
+ 10.1.0.254            08-00-27-55-69-2b     dynamique   
+ 10.1.0.255            ff-ff-ff-ff-ff-ff     statique  
+ 224.0.0.22            01-00-5e-00-00-16     statique
+ 224.0.0.251           01-00-5e-00-00-fb     statique  
+ 224.0.0.252           01-00-5e-00-00-fc     statique  
+ 239.255.255.250       01-00-5e-7f-ff-fa     statique`
+ 
 `Interface : 10.2.0.1 --- 0x4b  
   Adresse Internet      Adresse physique      Type  
   10.2.0.10             08-00-27-fb-54-90     dynamique   
