@@ -68,9 +68,9 @@ Table ARP de l'hôte : arp _a :
   224.0.0.22            01-00-5e-00-00-16     statique
   224.0.0.251           01-00-5e-00-00-fb     statique
   224.0.0.252           01-00-5e-00-00-fc     statique
-  239.255.255.250       01-00-5e-7f-ff-fa     statique
+  239.255.255.250       01-00-5e-7f-ff-fa     statique`
 
-Interface : 10.2.0.1 --- 0x4b
+`Interface : 10.2.0.1 --- 0x4b
   Adresse Internet      Adresse physique      Type
   10.2.0.10             08-00-27-fb-54-90     dynamique
   10.2.0.254            08-00-27-9c-42-37     dynamique
